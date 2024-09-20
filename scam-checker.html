@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Scam Checker</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="scam-checker.html">Scam Checker</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="scam-checker" class="box">
+            <h2>Is This a Scam?</h2>
+            <textarea id="message" rows="5" placeholder="Paste email or message here..."></textarea><br>
+            <button type="button" onclick="checkScam()">Check for Scam</button>
+            <div id="scam-result"></div>
+        </section>
+    </main>
+    <h2>Important Note:</h2>
+    <p>Many messages related to banks, recharges, or services may seem alarming, but not all are fraudulent. Always:</p>
+    <ul>
+        <li>Check if the message is relevant to an account or service you use.</li>
+        <li>Visit the official website or app directly (do not click on links in messages).</li>
+        <li>Contact the authorized customer service for any doubts.</li>
+    </ul>
+    <p><b>While this tool helps identify suspicious messages, it's important to remember that some messages are legitimate, especially if verified through official channels.</b></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
