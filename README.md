@@ -2,6 +2,7 @@
 
 ## **Inspiration**
 I was inspired to create this project because I have noticed how vulnerable senior citizens can be to cyber scams. Many seniors are not familiar with the complexities of the internet, making them easy targets for scammers. I wanted to develop a solution that raises awareness and provides them with simple tools to stay safe online.
+![Main](1.jpg)
 
 ## **What it does**
 My project educates seniors on the various types of cyber scams and threats, such as phishing, financial fraud, and malware. It offers easy-to-understand explanations and practical advice to help them recognize and avoid potential dangers. The project is designed to empower them to protect themselves online.
